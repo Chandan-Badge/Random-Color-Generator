@@ -1,6 +1,17 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: poppins;
-    background-color: darkturquoise;
+    color: white;
+    /* background-color: darkturquoise; */
+}
+
+.outer-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(180deg, #020412 10%, #14383d 70%, #23626b 100%);
 }
 
 h1 {
