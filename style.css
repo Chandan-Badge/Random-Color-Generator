@@ -16,30 +16,24 @@ body {
 
 h1 {
     text-align: center;
-    
 }
 
 .color-btn {
-    height: 30px;
-    width: 120px;
-
-    margin-bottom: 20px;
+    padding: 5px 15px;
 }
 
 .reset-btn {
-    height: 30px;
-    width: 120px;
-
-    margin-bottom: 20px;
-    margin-left: 20px;
+    padding: 5px 15px;
 }
 
 .button-box {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 
     margin: auto;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .color-box {
